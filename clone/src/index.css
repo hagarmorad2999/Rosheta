@@ -1,0 +1,11 @@
+body { font-family: Arial; background:#f4f6f8; }
+.container { width:80%; margin:auto; }
+.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.card { background:#fff; padding:15px; border-radius:8px; }
+button { padding:8px 12px; margin-top:10px; }
+input, select { padding:8px; width:100%; margin:5px 0; }
+.modal { position:fixed; inset:0; background:rgba(0,0,0,.4); display:flex; justify-content:center; align-items:center; }
+.modal-content { background:#fff; padding:20px; border-radius:8px; }
+
+
+
